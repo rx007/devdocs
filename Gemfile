@@ -8,9 +8,9 @@ gem 'activesupport', '~> 4.2', require: false
 gem 'yajl-ruby', require: false
 
 group :app do
-  gem 'rack'
-  gem 'sinatra'
-  gem 'sinatra-contrib'
+  gem 'rack', '>= 2.0.9.1'
+  gem 'sinatra', '>= 2.0.0'
+  gem 'sinatra-contrib', '>= 2.0.0'
   gem 'thin'
   gem 'sprockets'
   gem 'sprockets-helpers'
