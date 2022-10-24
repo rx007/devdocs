@@ -8,7 +8,7 @@ gem 'activesupport', '~> 4.2', require: false
 gem 'yajl-ruby', require: false
 
 group :app do
-  gem 'rack'
+  gem 'rack', '>= 3.0.0'
   gem 'sinatra'
   gem 'sinatra-contrib'
   gem 'thin'
