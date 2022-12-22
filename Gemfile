@@ -12,7 +12,7 @@ group :app do
   gem 'sinatra'
   gem 'sinatra-contrib'
   gem 'thin'
-  gem 'sprockets'
+  gem 'sprockets', '>= 4.2.0'
   gem 'sprockets-helpers'
   gem 'erubis'
   gem 'browser'
