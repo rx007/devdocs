@@ -4,7 +4,7 @@ ruby '2.3.0'
 gem 'rake'
 gem 'thor'
 gem 'pry', '~> 0.10.0'
-gem 'activesupport', '~> 4.2', require: false
+gem 'activesupport', '~> 6.1', '>= 6.1.7.3', require: false
 gem 'yajl-ruby', require: false
 
 group :app do
@@ -31,7 +31,7 @@ end
 group :docs do
   gem 'typhoeus'
   gem 'nokogiri'
-  gem 'html-pipeline'
+  gem 'html-pipeline', '>= 2.4.2'
   gem 'progress_bar', require: false
   gem 'unix_utils', require: false
   gem 'tty-pager', require: false
