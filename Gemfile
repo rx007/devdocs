@@ -10,7 +10,7 @@ gem 'yajl-ruby', require: false
 group :app do
   gem 'rack'
   gem 'sinatra'
-  gem 'sinatra-contrib'
+  gem 'sinatra-contrib', '>= 2.0.1'
   gem 'thin'
   gem 'sprockets'
   gem 'sprockets-helpers'
@@ -25,7 +25,7 @@ group :production do
 end
 
 group :development do
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.3.0'
 end
 
 group :docs do
