@@ -30,8 +30,8 @@ end
 
 group :docs do
   gem 'typhoeus'
-  gem 'nokogiri'
-  gem 'html-pipeline'
+  gem 'nokogiri', '>= 1.18.8'
+  gem 'html-pipeline', '>= 3.0.0'
   gem 'progress_bar', require: false
   gem 'unix_utils', require: false
   gem 'tty-pager', require: false
