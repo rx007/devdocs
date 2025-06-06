@@ -9,11 +9,11 @@ gem 'yajl-ruby', require: false
 
 group :app do
   gem 'rack'
-  gem 'sinatra'
-  gem 'sinatra-contrib'
-  gem 'thin'
-  gem 'sprockets'
-  gem 'sprockets-helpers'
+  gem 'sinatra', '>= 2.0.0'
+  gem 'sinatra-contrib', '>= 2.0.0'
+  gem 'thin', '>= 1.7.1'
+  gem 'sprockets', '>= 4.2.0'
+  gem 'sprockets-helpers', '>= 1.2.2'
   gem 'erubis'
   gem 'browser'
   gem 'sass'
@@ -25,11 +25,11 @@ group :production do
 end
 
 group :development do
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.2.0'
 end
 
 group :docs do
-  gem 'typhoeus'
+  gem 'typhoeus', '>= 1.1.0'
   gem 'nokogiri'
   gem 'html-pipeline'
   gem 'progress_bar', require: false
@@ -40,7 +40,7 @@ end
 group :test do
   gem 'minitest'
   gem 'rr', require: false
-  gem 'rack-test', require: false
+  gem 'rack-test', '>= 2.0.0', require: false
 end
 
 if ENV['SELENIUM'] == '1'
