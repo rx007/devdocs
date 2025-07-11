@@ -11,7 +11,7 @@ group :app do
   gem 'rack'
   gem 'sinatra'
   gem 'sinatra-contrib'
-  gem 'thin'
+  gem 'thin', '>= 2.0.0'
   gem 'sprockets'
   gem 'sprockets-helpers'
   gem 'erubis'
@@ -31,7 +31,7 @@ end
 group :docs do
   gem 'typhoeus'
   gem 'nokogiri'
-  gem 'html-pipeline'
+  gem 'html-pipeline', '>= 3.0.0'
   gem 'progress_bar', require: false
   gem 'unix_utils', require: false
   gem 'tty-pager', require: false
