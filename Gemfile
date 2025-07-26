@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.3.0'
 
 gem 'rake'
-gem 'thor'
+gem 'thor', '>= 1.4.0'
 gem 'pry', '~> 0.10.0'
 gem 'activesupport', '~> 4.2', require: false
 gem 'yajl-ruby', require: false
@@ -30,7 +30,7 @@ end
 
 group :docs do
   gem 'typhoeus'
-  gem 'nokogiri'
+  gem 'nokogiri', '>= 1.18.9'
   gem 'html-pipeline'
   gem 'progress_bar', require: false
   gem 'unix_utils', require: false
